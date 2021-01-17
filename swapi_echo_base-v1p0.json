@@ -1,0 +1,158 @@
+{
+  "name": "Echo Base",
+  "year": "3 ABY",
+  "operational_status": "active",
+  "location": {
+    "region": "Outer Rim Territories",
+    "sector": "Anoat sector",
+    "system": "Hoth system",
+    "planet": {
+      "name": "Hoth",
+      "system_position": 6,
+      "natural_satellites": 3,
+      "indigenous_life_forms": [
+        "Tauntaun",
+        "Wampa"
+      ]
+    }
+  },
+  "facilities": [
+    "command center",
+    "hanger",
+    "medical lab",
+    "power generator"
+  ],
+  "garrison": {
+    "commander": {
+      "url": "https://starwars.fandom.com/wiki/Carlist_Rieekan/Legends",
+      "name": "Carlist Rieekan",
+      "height": 180,
+      "mass": "unknown",
+      "hair_color": "brown",
+      "skin_color": "fair",
+      "eye_color": "blue",
+      "birth_year": "47 BBY",
+      "gender": "male",
+      "homeworld": "https://swapi.co/api/planets/2/",
+      "species": [
+        "https://swapi.co/api/species/1/"
+      ]
+    },
+    "personnel": {
+      "military": 7500,
+      "medical": 350,
+      "droids": 120
+    }
+  },
+  "fixed_defences": [
+    "theater shield",
+    "v-150 Planet Defender ion cannon",
+    "1.4 FD P-Tower anti-vehicle laser cannons",
+    "DF.9 anti-infantry laser cannons",
+    "trenches and weapons emplacements"
+  ],
+  "vehicle_assets": {
+    "snowspeeders": [
+      {
+        "type": {
+          "vehicle_class": "airspeeder",
+          "name": "Snowspeeder",
+          "model": "t-47 airspeeder",
+          "armament": [
+            "CEC AP/11 double laser cannons[ (2x)",
+            "Rear-facing Ubrikkian Mo/Dk energy harpoon[1] and tow cable (1x)",
+            "Rear-facing light repeating blaster cannon (1x)"
+          ]
+        },
+        "num_available": 12
+      }
+    ]
+  },
+  "starship_assets": {
+    "starfighters": [
+      {
+        "type": {
+          "starship_class": "Starfighter",
+          "name": "X-wing",
+          "model": "T-65 X-wing",
+          "armament": [
+            "Taim & Bak KX9 or IX4 laser cannons (4x)",
+            "Krupx MG7 proton torpedo launchers, 3 torpedoes each (2x)"
+          ]
+        },
+        "num_available": 60
+      }
+    ],
+    "transports": [
+      {
+        "type": {
+          "starship_class": "Medium transport",
+          "name": "Rebel transport",
+          "model": "GR-75 medium transport",
+          "armament": [
+            "Twin fire-linked laser cannon turrets (4x)"
+          ]
+        },
+        "num_available": 30
+      }
+    ]
+  },
+  "visiting_starships": {
+    "freighters": [
+      {
+        "starship_class": "Light freighter",
+        "name": "Millennium Falcon",
+        "model": "YT-1300 light freighter",
+        "length": 34.37,
+        "width": 25.61,
+        "armament": [
+          "Modified Corellian Engineering Corporation AG-2G quad laser cannons (2x)",
+          "Concealed BlasTech Ax-108 Ground Buzzer surface-defense blaster cannon (1x)",
+          "Arakyd ST2 concussion missile tubes, 4 missiles each (2x)",
+          "Landing jets modified as anti-personnel weapons"
+        ]
+      },
+      {
+        "starship_class": "Light freighter",
+        "name": "Outrider",
+        "model": "YT-2400 light freighter",
+        "manufacturer": "Corellian Engineering Corporation",
+        "length": 21.0,
+        "width": 26.7,
+        "max_atmosphering_speed": 1150,
+        "hyperdrive_rating": 0.75,
+        "MGLT": 70,
+        "crew": 4,
+        "passengers": 6,
+        "cargo_capacity": "150000",
+        "consumables": "2 months",
+        "armament": [
+          "Dymek heavy dual laser cannon turrets (2x)",
+          "Concussion missile tubes, 3 missiles each (2x)"
+        ],
+        "pilot": {
+          "url": "https://starwars.fandom.com/wiki/Dash_Rendar/Legends",
+          "name": "Dash Rendar",
+          "height": 180,
+          "mass": "unknown",
+          "hair_color": "red",
+          "skin_color": "fair",
+          "eye_color": "green",
+          "birth_year": "47 BBY",
+          "gender": "male",
+          "homeworld": "https://swapi.co/api/planets/22/",
+          "species": [
+            "https://swapi.co/api/species/1/"
+          ]
+        }
+      }
+    ]
+  },
+  "evacuation_plan": {
+    "max_base_personnel": null,
+    "max_available_transports": null,
+    "passenger_overload_multiplier": 3,
+    "max_passenger_overload_capacity": null,
+    "transport_assignments": []
+  }
+}

@@ -1,0 +1,283 @@
+[
+  {
+    "url": "https://swapi.co/api/planets/4/",
+    "name": "Hoth",
+    "rotation_period": 23,
+    "orbital_period": 549,
+    "diameter": 7200,
+    "climate": [
+      "frozen"
+    ],
+    "gravity": 1.1,
+    "terrain": [
+      "tundra",
+      "ice caves",
+      "mountain ranges"
+    ],
+    "surface_water": 100,
+    "population": null
+  },
+  {
+    "url": "https://swapi.co/api/planets/5/",
+    "name": "Dagobah",
+    "rotation_period": 23,
+    "orbital_period": 341,
+    "diameter": 8900,
+    "climate": [
+      "murky"
+    ],
+    "gravity": null,
+    "terrain": [
+      "swamp",
+      "jungles"
+    ],
+    "surface_water": 8,
+    "population": null
+  },
+  {
+    "url": "https://swapi.co/api/planets/20/",
+    "name": "Stewjon",
+    "rotation_period": null,
+    "orbital_period": null,
+    "diameter": 0,
+    "climate": [
+      "temperate"
+    ],
+    "gravity": 1.0,
+    "terrain": [
+      "grass"
+    ],
+    "surface_water": null,
+    "population": null
+  },
+  {
+    "url": "https://swapi.co/api/planets/28/",
+    "name": null,
+    "rotation_period": 0,
+    "orbital_period": 0,
+    "diameter": 0,
+    "climate": null,
+    "gravity": null,
+    "terrain": null,
+    "surface_water": null,
+    "population": null
+  },
+  {
+    "url": "https://swapi.co/api/planets/38/",
+    "name": "Aleen Minor",
+    "rotation_period": null,
+    "orbital_period": null,
+    "diameter": null,
+    "climate": null,
+    "gravity": null,
+    "terrain": null,
+    "surface_water": null,
+    "population": null
+  },
+  {
+    "url": "https://swapi.co/api/planets/40/",
+    "name": "Troiken",
+    "rotation_period": null,
+    "orbital_period": null,
+    "diameter": null,
+    "climate": null,
+    "gravity": null,
+    "terrain": [
+      "desert",
+      "tundra",
+      "rainforests",
+      "mountains"
+    ],
+    "surface_water": null,
+    "population": null
+  },
+  {
+    "url": "https://swapi.co/api/planets/41/",
+    "name": "Tund",
+    "rotation_period": 48,
+    "orbital_period": 1770,
+    "diameter": 12190,
+    "climate": null,
+    "gravity": null,
+    "terrain": [
+      "barren",
+      "ash"
+    ],
+    "surface_water": null,
+    "population": null
+  },
+  {
+    "url": "https://swapi.co/api/planets/45/",
+    "name": "Iridonia",
+    "rotation_period": 29,
+    "orbital_period": 413,
+    "diameter": null,
+    "climate": null,
+    "gravity": null,
+    "terrain": [
+      "rocky canyons",
+      "acid pools"
+    ],
+    "surface_water": null,
+    "population": null
+  },
+  {
+    "url": "https://swapi.co/api/planets/46/",
+    "name": "Tholoth",
+    "rotation_period": null,
+    "orbital_period": null,
+    "diameter": null,
+    "climate": null,
+    "gravity": null,
+    "terrain": null,
+    "surface_water": null,
+    "population": null
+  },
+  {
+    "url": "https://swapi.co/api/planets/47/",
+    "name": "Iktotch",
+    "rotation_period": 22,
+    "orbital_period": 481,
+    "diameter": null,
+    "climate": [
+      "arid",
+      "rocky",
+      "windy"
+    ],
+    "gravity": 1.0,
+    "terrain": [
+      "rocky"
+    ],
+    "surface_water": null,
+    "population": null
+  },
+  {
+    "url": "https://swapi.co/api/planets/48/",
+    "name": "Quermia",
+    "rotation_period": null,
+    "orbital_period": null,
+    "diameter": null,
+    "climate": null,
+    "gravity": null,
+    "terrain": null,
+    "surface_water": null,
+    "population": null
+  },
+  {
+    "url": "https://swapi.co/api/planets/49/",
+    "name": "Dorin",
+    "rotation_period": 22,
+    "orbital_period": 409,
+    "diameter": 13400,
+    "climate": [
+      "temperate"
+    ],
+    "gravity": 1.0,
+    "terrain": null,
+    "surface_water": null,
+    "population": null
+  },
+  {
+    "url": "https://swapi.co/api/planets/51/",
+    "name": "Mirial",
+    "rotation_period": null,
+    "orbital_period": null,
+    "diameter": null,
+    "climate": null,
+    "gravity": null,
+    "terrain": [
+      "deserts"
+    ],
+    "surface_water": null,
+    "population": null
+  },
+  {
+    "url": "https://swapi.co/api/planets/52/",
+    "name": "Serenno",
+    "rotation_period": null,
+    "orbital_period": null,
+    "diameter": null,
+    "climate": null,
+    "gravity": null,
+    "terrain": [
+      "rainforests",
+      "rivers",
+      "mountains"
+    ],
+    "surface_water": null,
+    "population": null
+  },
+  {
+    "url": "https://swapi.co/api/planets/53/",
+    "name": "Concord Dawn",
+    "rotation_period": null,
+    "orbital_period": null,
+    "diameter": null,
+    "climate": null,
+    "gravity": null,
+    "terrain": [
+      "jungles",
+      "forests",
+      "deserts"
+    ],
+    "surface_water": null,
+    "population": null
+  },
+  {
+    "url": "https://swapi.co/api/planets/54/",
+    "name": "Zolan",
+    "rotation_period": null,
+    "orbital_period": null,
+    "diameter": null,
+    "climate": null,
+    "gravity": null,
+    "terrain": null,
+    "surface_water": null,
+    "population": null
+  },
+  {
+    "url": "https://swapi.co/api/planets/58/",
+    "name": "Shili",
+    "rotation_period": null,
+    "orbital_period": null,
+    "diameter": null,
+    "climate": [
+      "temperate"
+    ],
+    "gravity": 1.0,
+    "terrain": [
+      "cities",
+      "savannahs",
+      "seas",
+      "plains"
+    ],
+    "surface_water": null,
+    "population": null
+  },
+  {
+    "url": "https://swapi.co/api/planets/60/",
+    "name": "Umbara",
+    "rotation_period": null,
+    "orbital_period": null,
+    "diameter": null,
+    "climate": null,
+    "gravity": null,
+    "terrain": null,
+    "surface_water": null,
+    "population": null
+  },
+  {
+    "url": "https://swapi.co/api/planets/61/",
+    "name": "Jakku",
+    "rotation_period": null,
+    "orbital_period": null,
+    "diameter": null,
+    "climate": null,
+    "gravity": null,
+    "terrain": [
+      "deserts"
+    ],
+    "surface_water": null,
+    "population": null
+  }
+]

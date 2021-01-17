@@ -1,0 +1,816 @@
+{
+  "name": "Echo Base",
+  "year": "3 ABY",
+  "operational_status": "active",
+  "location": {
+    "region": "Outer Rim Territories",
+    "sector": "Anoat sector",
+    "system": "Hoth system",
+    "planet": {
+      "url": "https://swapi.co/api/planets/4/",
+      "name": "Hoth",
+      "system_position": 6,
+      "natural_satellites": 3,
+      "rotation_period": 23,
+      "orbital_period": 549,
+      "diameter": 7200,
+      "climate": [
+        "frozen"
+      ],
+      "gravity": 1.1,
+      "terrain": [
+        "tundra",
+        "ice caves",
+        "mountain ranges"
+      ],
+      "surface_water": 100,
+      "population": null,
+      "indigenous_life_forms": [
+        "Tauntaun",
+        "Wampa"
+      ]
+    }
+  },
+  "facilities": [
+    "command center",
+    "hanger",
+    "medical lab",
+    "power generator"
+  ],
+  "garrison": {
+    "commander": {
+      "url": "https://starwars.fandom.com/wiki/Carlist_Rieekan/Legends",
+      "name": "Carlist Rieekan",
+      "height": 180,
+      "mass": null,
+      "hair_color": [
+        "brown"
+      ],
+      "skin_color": [
+        "fair"
+      ],
+      "eye_color": "blue",
+      "birth_year": "47 BBY",
+      "gender": "male",
+      "homeworld": {
+        "url": "https://swapi.co/api/planets/2/",
+        "name": "Alderaan",
+        "rotation_period": 24,
+        "orbital_period": 364,
+        "diameter": 12500,
+        "climate": [
+          "temperate"
+        ],
+        "gravity": 1.0,
+        "terrain": [
+          "grasslands",
+          "mountains"
+        ],
+        "surface_water": 40,
+        "population": 2000000000
+      },
+      "species": [
+        {
+          "url": "https://swapi.co/api/species/1/",
+          "name": "Human",
+          "classification": "mammal",
+          "designation": "sentient",
+          "average_height": 180,
+          "skin_colors": [
+            "caucasian",
+            "black",
+            "asian",
+            "hispanic"
+          ],
+          "hair_colors": [
+            "blonde",
+            "brown",
+            "black",
+            "red"
+          ],
+          "eye_colors": [
+            "brown",
+            "blue",
+            "green",
+            "hazel",
+            "grey",
+            "amber"
+          ],
+          "average_lifespan": 120,
+          "language": "Galactic Basic"
+        }
+      ]
+    },
+    "personnel": {
+      "military": 7500,
+      "medical": 350,
+      "droids": 120
+    }
+  },
+  "fixed_defences": [
+    "theater shield",
+    "v-150 Planet Defender ion cannon",
+    "1.4 FD P-Tower anti-vehicle laser cannons",
+    "DF.9 anti-infantry laser cannons",
+    "trenches and weapons emplacements"
+  ],
+  "vehicle_assets": {
+    "snowspeeders": [
+      {
+        "type": {
+          "url": "https://swapi.co/api/vehicles/14/",
+          "vehicle_class": "airspeeder",
+          "name": "Snowspeeder",
+          "model": "t-47 airspeeder",
+          "manufacturer": "Incom corporation",
+          "length": 4.5,
+          "max_atmosphering_speed": 650,
+          "crew": 2,
+          "passengers": 0,
+          "cargo_capacity": 10,
+          "consumables": "none",
+          "armament": [
+            "CEC AP/11 double laser cannons[ (2x)",
+            "Rear-facing Ubrikkian Mo/Dk energy harpoon[1] and tow cable (1x)",
+            "Rear-facing light repeating blaster cannon (1x)"
+          ]
+        },
+        "num_available": 12
+      }
+    ]
+  },
+  "starship_assets": {
+    "starfighters": [
+      {
+        "type": {
+          "url": "https://swapi.co/api/starships/12/",
+          "starship_class": "Starfighter",
+          "name": "X-wing",
+          "model": "T-65 X-wing",
+          "manufacturer": "Incom Corporation",
+          "length": 12.5,
+          "max_atmosphering_speed": 1050,
+          "hyperdrive_rating": 1.0,
+          "MGLT": 100,
+          "crew": 1,
+          "passengers": 0,
+          "cargo_capacity": 110,
+          "consumables": "1 week",
+          "armament": [
+            "Taim & Bak KX9 or IX4 laser cannons (4x)",
+            "Krupx MG7 proton torpedo launchers, 3 torpedoes each (2x)"
+          ]
+        },
+        "num_available": 60
+      }
+    ],
+    "transports": [
+      {
+        "type": {
+          "url": "https://swapi.co/api/starships/17/",
+          "starship_class": "Medium transport",
+          "name": "Rebel transport",
+          "model": "GR-75 medium transport",
+          "manufacturer": "Gallofree Yards, Inc.",
+          "length": 90.0,
+          "max_atmosphering_speed": 650,
+          "hyperdrive_rating": 4.0,
+          "MGLT": 20,
+          "crew": 6,
+          "passengers": 90,
+          "cargo_capacity": 19000000,
+          "consumables": "6 months",
+          "armament": [
+            "Twin fire-linked laser cannon turrets (4x)"
+          ]
+        },
+        "num_available": 30
+      }
+    ]
+  },
+  "visiting_starships": {
+    "freighters": [
+      {
+        "url": "https://swapi.co/api/starships/10/",
+        "starship_class": "Light freighter",
+        "name": "Millennium Falcon",
+        "model": "YT-1300 light freighter",
+        "manufacturer": "Corellian Engineering Corporation",
+        "length": 34.37,
+        "width": 25.61,
+        "max_atmosphering_speed": 1050,
+        "hyperdrive_rating": 0.5,
+        "MGLT": 75,
+        "crew": 4,
+        "passengers": 6,
+        "cargo_capacity": 100000,
+        "consumables": "2 months",
+        "armament": [
+          "Modified Corellian Engineering Corporation AG-2G quad laser cannons (2x)",
+          "Concealed BlasTech Ax-108 Ground Buzzer surface-defense blaster cannon (1x)",
+          "Arakyd ST2 concussion missile tubes, 4 missiles each (2x)",
+          "Landing jets modified as anti-personnel weapons"
+        ],
+        "pilot": {
+          "url": "https://swapi.co/api/people/14/",
+          "name": "Han Solo",
+          "height": 180,
+          "mass": 80,
+          "hair_color": [
+            "brown"
+          ],
+          "skin_color": [
+            "fair"
+          ],
+          "eye_color": "brown",
+          "birth_year": "29BBY",
+          "gender": "male",
+          "homeworld": {
+            "url": "https://swapi.co/api/planets/22/",
+            "name": "Corellia",
+            "rotation_period": 25,
+            "orbital_period": 329,
+            "diameter": 11000,
+            "climate": [
+              "temperate"
+            ],
+            "gravity": 1.0,
+            "terrain": [
+              "plains",
+              "urban",
+              "hills",
+              "forests"
+            ],
+            "surface_water": 70,
+            "population": 3000000000
+          },
+          "species": [
+            {
+              "url": "https://swapi.co/api/species/1/",
+              "name": "Human",
+              "classification": "mammal",
+              "designation": "sentient",
+              "average_height": 180,
+              "skin_colors": [
+                "caucasian",
+                "black",
+                "asian",
+                "hispanic"
+              ],
+              "hair_colors": [
+                "blonde",
+                "brown",
+                "black",
+                "red"
+              ],
+              "eye_colors": [
+                "brown",
+                "blue",
+                "green",
+                "hazel",
+                "grey",
+                "amber"
+              ],
+              "average_lifespan": 120,
+              "language": "Galactic Basic"
+            }
+          ]
+        },
+        "copilot": {
+          "url": "https://swapi.co/api/people/13/",
+          "name": "Chewbacca",
+          "height": 228,
+          "mass": 112,
+          "hair_color": [
+            "brown"
+          ],
+          "skin_color": null,
+          "eye_color": "blue",
+          "birth_year": "200BBY",
+          "gender": "male",
+          "homeworld": {
+            "url": "https://swapi.co/api/planets/14/",
+            "name": "Kashyyyk",
+            "rotation_period": 26,
+            "orbital_period": 381,
+            "diameter": 12765,
+            "climate": [
+              "tropical"
+            ],
+            "gravity": 1.0,
+            "terrain": [
+              "jungle",
+              "forests",
+              "lakes",
+              "rivers"
+            ],
+            "surface_water": 60,
+            "population": 45000000
+          },
+          "species": [
+            {
+              "url": "https://swapi.co/api/species/3/",
+              "name": "Wookiee",
+              "classification": "mammal",
+              "designation": "sentient",
+              "average_height": 210,
+              "skin_colors": [
+                "gray"
+              ],
+              "hair_colors": [
+                "black",
+                "brown"
+              ],
+              "eye_colors": [
+                "blue",
+                "green",
+                "yellow",
+                "brown",
+                "golden",
+                "red"
+              ],
+              "average_lifespan": 400,
+              "language": "Shyriiwook"
+            }
+          ]
+        }
+      },
+      {
+        "starship_class": "Light freighter",
+        "name": "Outrider",
+        "model": "YT-2400 light freighter",
+        "manufacturer": "Corellian Engineering Corporation",
+        "length": 21.0,
+        "width": 26.7,
+        "max_atmosphering_speed": 1150,
+        "hyperdrive_rating": 0.75,
+        "MGLT": 70,
+        "crew": 4,
+        "passengers": 6,
+        "cargo_capacity": "150000",
+        "consumables": "2 months",
+        "armament": [
+          "Dymek heavy dual laser cannon turrets (2x)",
+          "Concussion missile tubes, 3 missiles each (2x)"
+        ],
+        "pilot": {
+          "url": "https://starwars.fandom.com/wiki/Dash_Rendar/Legends",
+          "name": "Dash Rendar",
+          "height": 180,
+          "mass": null,
+          "hair_color": [
+            "red"
+          ],
+          "skin_color": [
+            "fair"
+          ],
+          "eye_color": "green",
+          "birth_year": "47 BBY",
+          "gender": "male",
+          "homeworld": {
+            "url": "https://swapi.co/api/planets/22/",
+            "name": "Corellia",
+            "rotation_period": 25,
+            "orbital_period": 329,
+            "diameter": 11000,
+            "climate": [
+              "temperate"
+            ],
+            "gravity": 1.0,
+            "terrain": [
+              "plains",
+              "urban",
+              "hills",
+              "forests"
+            ],
+            "surface_water": 70,
+            "population": 3000000000
+          },
+          "species": [
+            {
+              "url": "https://swapi.co/api/species/1/",
+              "name": "Human",
+              "classification": "mammal",
+              "designation": "sentient",
+              "average_height": 180,
+              "skin_colors": [
+                "caucasian",
+                "black",
+                "asian",
+                "hispanic"
+              ],
+              "hair_colors": [
+                "blonde",
+                "brown",
+                "black",
+                "red"
+              ],
+              "eye_colors": [
+                "brown",
+                "blue",
+                "green",
+                "hazel",
+                "grey",
+                "amber"
+              ],
+              "average_lifespan": 120,
+              "language": "Galactic Basic"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "evacuation_plan": {
+    "max_base_personnel": 7970,
+    "max_available_transports": 30,
+    "passenger_overload_multiplier": 3,
+    "max_passenger_overload_capacity": 8100,
+    "transport_assignments": [
+      {
+        "url": "https://swapi.co/api/starships/17/",
+        "starship_class": "Medium transport",
+        "name": "Bright Hope",
+        "model": "GR-75 medium transport",
+        "manufacturer": "Gallofree Yards, Inc.",
+        "length": 90.0,
+        "max_atmosphering_speed": 650,
+        "hyperdrive_rating": 4.0,
+        "MGLT": 20,
+        "crew": 6,
+        "passengers": 90,
+        "cargo_capacity": 19000000,
+        "consumables": "6 months",
+        "armament": [
+          "Twin fire-linked laser cannon turrets (4x)"
+        ],
+        "passenger_manifest": [
+          {
+            "url": "https://swapi.co/api/people/5/",
+            "name": "Leia Organa",
+            "height": 150,
+            "mass": 49,
+            "hair_color": [
+              "brown"
+            ],
+            "skin_color": [
+              "light"
+            ],
+            "eye_color": "brown",
+            "birth_year": "19BBY",
+            "gender": "female",
+            "homeworld": {
+              "url": "https://swapi.co/api/planets/2/",
+              "name": "Alderaan",
+              "rotation_period": 24,
+              "orbital_period": 364,
+              "diameter": 12500,
+              "climate": [
+                "temperate"
+              ],
+              "gravity": 1.0,
+              "terrain": [
+                "grasslands",
+                "mountains"
+              ],
+              "surface_water": 40,
+              "population": 2000000000
+            },
+            "species": [
+              {
+                "url": "https://swapi.co/api/species/1/",
+                "name": "Human",
+                "classification": "mammal",
+                "designation": "sentient",
+                "average_height": 180,
+                "skin_colors": [
+                  "caucasian",
+                  "black",
+                  "asian",
+                  "hispanic"
+                ],
+                "hair_colors": [
+                  "blonde",
+                  "brown",
+                  "black",
+                  "red"
+                ],
+                "eye_colors": [
+                  "brown",
+                  "blue",
+                  "green",
+                  "hazel",
+                  "grey",
+                  "amber"
+                ],
+                "average_lifespan": 120,
+                "language": "Galactic Basic"
+              }
+            ]
+          },
+          {
+            "url": "https://swapi.co/api/people/2/",
+            "name": "C-3PO",
+            "height": 167,
+            "mass": 75,
+            "hair_color": null,
+            "skin_color": [
+              "gold"
+            ],
+            "eye_color": "yellow",
+            "birth_year": "112BBY",
+            "gender": null,
+            "homeworld": {
+              "url": "https://swapi.co/api/planets/1/",
+              "name": "Tatooine",
+              "rotation_period": 23,
+              "orbital_period": 304,
+              "diameter": 10465,
+              "climate": [
+                "arid"
+              ],
+              "gravity": 1.0,
+              "terrain": [
+                "desert"
+              ],
+              "surface_water": 1,
+              "population": 200000
+            },
+            "species": [
+              {
+                "url": "https://swapi.co/api/species/2/",
+                "name": "Droid",
+                "classification": "artificial",
+                "designation": "sentient",
+                "average_height": null,
+                "skin_colors": null,
+                "hair_colors": null,
+                "eye_colors": null,
+                "average_lifespan": "indefinite",
+                "language": null
+              }
+            ]
+          }
+        ],
+        "escorts": [
+          {
+            "url": "https://swapi.co/api/starships/12/",
+            "starship_class": "Starfighter",
+            "name": "X-wing",
+            "model": "T-65 X-wing",
+            "manufacturer": "Incom Corporation",
+            "length": 12.5,
+            "max_atmosphering_speed": 1050,
+            "hyperdrive_rating": 1.0,
+            "MGLT": 100,
+            "crew": 1,
+            "passengers": 0,
+            "cargo_capacity": 110,
+            "consumables": "1 week",
+            "armament": [
+              "Taim & Bak KX9 or IX4 laser cannons (4x)",
+              "Krupx MG7 proton torpedo launchers, 3 torpedoes each (2x)"
+            ],
+            "pilot": {
+              "url": "https://swapi.co/api/people/1/",
+              "name": "Luke Skywalker",
+              "height": 172,
+              "mass": 77,
+              "hair_color": [
+                "blond"
+              ],
+              "skin_color": [
+                "fair"
+              ],
+              "eye_color": "blue",
+              "birth_year": "19BBY",
+              "gender": "male",
+              "homeworld": {
+                "url": "https://swapi.co/api/planets/1/",
+                "name": "Tatooine",
+                "rotation_period": 23,
+                "orbital_period": 304,
+                "diameter": 10465,
+                "climate": [
+                  "arid"
+                ],
+                "gravity": 1.0,
+                "terrain": [
+                  "desert"
+                ],
+                "surface_water": 1,
+                "population": 200000
+              },
+              "species": [
+                {
+                  "url": "https://swapi.co/api/species/1/",
+                  "name": "Human",
+                  "classification": "mammal",
+                  "designation": "sentient",
+                  "average_height": 180,
+                  "skin_colors": [
+                    "caucasian",
+                    "black",
+                    "asian",
+                    "hispanic"
+                  ],
+                  "hair_colors": [
+                    "blonde",
+                    "brown",
+                    "black",
+                    "red"
+                  ],
+                  "eye_colors": [
+                    "brown",
+                    "blue",
+                    "green",
+                    "hazel",
+                    "grey",
+                    "amber"
+                  ],
+                  "average_lifespan": 120,
+                  "language": "Galactic Basic"
+                }
+              ]
+            },
+            "astromech_droid": {
+              "url": "https://swapi.co/api/people/3/",
+              "name": "R2-D2",
+              "height": 96,
+              "mass": 32,
+              "hair_color": null,
+              "skin_color": [
+                "white",
+                "blue"
+              ],
+              "eye_color": "red",
+              "birth_year": "33BBY",
+              "gender": null,
+              "homeworld": {
+                "url": "https://swapi.co/api/planets/8/",
+                "name": "Naboo",
+                "rotation_period": 26,
+                "orbital_period": 312,
+                "diameter": 12120,
+                "climate": [
+                  "temperate"
+                ],
+                "gravity": 1.0,
+                "terrain": [
+                  "grassy hills",
+                  "swamps",
+                  "forests",
+                  "mountains"
+                ],
+                "surface_water": 12,
+                "population": 4500000000
+              },
+              "species": [
+                {
+                  "url": "https://swapi.co/api/species/2/",
+                  "name": "Droid",
+                  "classification": "artificial",
+                  "designation": "sentient",
+                  "average_height": null,
+                  "skin_colors": null,
+                  "hair_colors": null,
+                  "eye_colors": null,
+                  "average_lifespan": "indefinite",
+                  "language": null
+                }
+              ]
+            }
+          },
+          {
+            "url": "https://swapi.co/api/starships/12/",
+            "starship_class": "Starfighter",
+            "name": "X-wing",
+            "model": "T-65 X-wing",
+            "manufacturer": "Incom Corporation",
+            "length": 12.5,
+            "max_atmosphering_speed": 1050,
+            "hyperdrive_rating": 1.0,
+            "MGLT": 100,
+            "crew": 1,
+            "passengers": 0,
+            "cargo_capacity": 110,
+            "consumables": "1 week",
+            "armament": [
+              "Taim & Bak KX9 or IX4 laser cannons (4x)",
+              "Krupx MG7 proton torpedo launchers, 3 torpedoes each (2x)"
+            ],
+            "pilot": {
+              "url": "https://swapi.co/api/people/18/",
+              "name": "Wedge Antilles",
+              "height": 170,
+              "mass": 77,
+              "hair_color": [
+                "brown"
+              ],
+              "skin_color": [
+                "fair"
+              ],
+              "eye_color": "hazel",
+              "birth_year": "21BBY",
+              "gender": "male",
+              "homeworld": {
+                "url": "https://swapi.co/api/planets/22/",
+                "name": "Corellia",
+                "rotation_period": 25,
+                "orbital_period": 329,
+                "diameter": 11000,
+                "climate": [
+                  "temperate"
+                ],
+                "gravity": 1.0,
+                "terrain": [
+                  "plains",
+                  "urban",
+                  "hills",
+                  "forests"
+                ],
+                "surface_water": 70,
+                "population": 3000000000
+              },
+              "species": [
+                {
+                  "url": "https://swapi.co/api/species/1/",
+                  "name": "Human",
+                  "classification": "mammal",
+                  "designation": "sentient",
+                  "average_height": 180,
+                  "skin_colors": [
+                    "caucasian",
+                    "black",
+                    "asian",
+                    "hispanic"
+                  ],
+                  "hair_colors": [
+                    "blonde",
+                    "brown",
+                    "black",
+                    "red"
+                  ],
+                  "eye_colors": [
+                    "brown",
+                    "blue",
+                    "green",
+                    "hazel",
+                    "grey",
+                    "amber"
+                  ],
+                  "average_lifespan": 120,
+                  "language": "Galactic Basic"
+                }
+              ]
+            },
+            "astromech_droid": {
+              "url": "https://swapi.co/api/people/8/",
+              "name": "R5-D4",
+              "height": 97,
+              "mass": 32,
+              "hair_color": null,
+              "skin_color": [
+                "white",
+                "red"
+              ],
+              "eye_color": "red",
+              "birth_year": null,
+              "gender": null,
+              "homeworld": {
+                "url": "https://swapi.co/api/planets/1/",
+                "name": "Tatooine",
+                "rotation_period": 23,
+                "orbital_period": 304,
+                "diameter": 10465,
+                "climate": [
+                  "arid"
+                ],
+                "gravity": 1.0,
+                "terrain": [
+                  "desert"
+                ],
+                "surface_water": 1,
+                "population": 200000
+              },
+              "species": [
+                {
+                  "url": "https://swapi.co/api/species/2/",
+                  "name": "Droid",
+                  "classification": "artificial",
+                  "designation": "sentient",
+                  "average_height": null,
+                  "skin_colors": null,
+                  "hair_colors": null,
+                  "eye_colors": null,
+                  "average_lifespan": "indefinite",
+                  "language": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
